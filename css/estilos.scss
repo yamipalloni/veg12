@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+// font-family: "Rubik", sans-serif
+// font-family: "Montserrat", sans-serif
+
+
+//variables Globales
+//operadores - inicio
+$ancho: 720px;
+$alto: 100px;
+$alto2: 500px;
+//fonts
+$font1: "Rubik", sans-serif;
+$font2: "Montserrat", sans-serif;
+$bold1:700;
+$bold2: 500;
+// paleta colores
+$color1: #F38F1A;
+$color2:#FFFFFF;
+$color3: #FFC543;
+$color4:#009EE2;
+$color5:#B2CD75;
+$color6:#A0CE21;
+$color7:black;
+//dimensiones
+$size1: 100%;
+$size2: 50%;
+$size3: 20px;
+$size4: 50px;
+
+// --------------------//
+
+//nav
+
+.navbar{
+    background-color: $color1;
+    font-family: $font1;
+    font-size: calc($size3 - 1px);
+        a{
+        color: $color7 !important;
+    }
+}
+
+.nav-list{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+
+.nav-link:hover{
+    color: $color2 !important;
+}
+
+
+// --------------------//
+
+//** index **//
+
+.carousel-caption{
+    h1{text-align: center;
+        color: $color2;
+        font-family: $font1;
+        font-size: $size3;
+    }
+}
+
+.carousel-caption{
+    p{
+        text-align: center;
+        color: $color2;
+        font-family: $font2;
+        font-size: calc($size3 - 5px);
+    }
+}
+
+// sección 1 (post carrusel)
+.sec1{
+    background-color: $color1;
+    padding: $size3;
+    h2{
+        font-family: $font1;
+        color: $color2;
+        text-align: center;
+    }
+}
+.sec1{
+    p{
+        font-family: $font2;
+        color: $color2;
+        text-align: center;
+    }
+}
+
+.card-index{
+    background-color: $color1;
+    border: $color1;
+}
+
+
+// sección 2 (por qué es importante)
+.sec2{
+    background-color: $color2;
+    background: linear-gradient(360deg,#e9e4df 0%,$color2 100%);
+    h2{
+        padding-top: $size3;
+        font-family: $font1;
+        text-align: center;
+        color: $color7;
+    }
+}
+
+.sec2{
+    h3{
+        padding-bottom: calc($size3 - 10px);
+        font-family: $font1;
+        color: $color7;
+        text-align: center;
+    }
+}
+
+.sec2{
+    h4{
+        font-family: $font1;
+        color: $color7;
+    }
+}
+
+.sec2{
+    p{
+        font-family: $font2;
+        color: $color7;
+        text-align: center;
+    }
+}
+
+.funciones{
+    padding: $size3;
+    p{
+        font-family: $font2;
+        color: $color7;
+        text-align: left;
+    }
+}
+
+// sección 3 - fuentes de la vitamina
+.sec3{
+    background-color: $color2;
+    h3{
+        font-family: $font1;
+        color: $color1;
+        text-align: center;
+        padding-bottom: $size3;
+    }
+}
+
+.sec3{
+    h4{
+        font-family: $font1;
+        color: $color1;
+        text-align: left;
+        padding-top: $size3;
+    }
+}
+
+.sec3{
+    p{
+        font-family: $font2;
+        color: $color7;
+        text-align: left;
+        padding-bottom: $size3;
+    }
+}
+
+.fuentes{
+    padding-bottom: $size3;
+}
+
+// sección 4 - deficiencias
+.sec4{
+    background-color: $color1;
+    padding: $size3;
+    h2{
+        font-family: $font1;
+        color: $color2;
+        text-align: center;
+    }
+}
+.sec4{
+    p{
+        font-family: $font2;
+        color: $color2;
+        text-align: center;
+    }
+}
+
+.sec4{
+    h3{
+        font-family: $font1;
+        color: $color2;
+        text-align: center;
+    }
+}
+
+.card-index-sec4{
+    background-color: $color1;
+    border: $color1;
+}
+
+// sección 5 (prevención)
+.sec5{
+    background-color: $color2;
+    padding: $size3;
+    h2{
+        font-family: $font1;
+        color: $color7;
+        text-align: center;
+    }
+}
+
+.sec5{
+    p{
+        font-family: $font2;
+        color: $color7;
+        text-align: center;
+    }
+}
+
+.card-index-sec5{
+    background-color: $color2;
+    border: $color2;
+}
+
+// sección 6 - marca
+
+.sec6{
+    background-color: $color2;
+    background: linear-gradient(180deg,rgb(255, 254, 254) 0%,$color3 100%);
+    h4{
+        font-family: $font1;
+    }
+}
+
+.sec6{
+    p{
+        font-family: $font2;
+    }
+}
+.pack{
+    animation: zoomIn 10s ease-in-out infinite;
+}
+
+@keyframes zoomIn {
+    0% {
+    transform: scale(1);
+    }
+    50% {
+    transform: scale(1.5);
+    }
+    100% {
+    transform: scale(1);
+    }
+}
+
+
+//** Cierre página **//
+footer{
+    background-color: $color3;
+    color: $color7;
+    text-align: center;
+    padding: $size3;
+    .redes a{
+    letter-spacing: $size3;
+    text-align: center;
+    //** 20px**//
+    font-size: $size3;
+    text-decoration: none;
+    color: $color7;
+        :hover{
+            color: $color1;
+        }
+    }
+}
+
+.logo-footer{
+    padding: $size3;
+}
+
+.subir{
+    width: calc($size4 - 10px);
+    height: calc($size4 - 10px);
+    background-color: $color1;
+    text-decoration: none;
+    color: $color2;
+    position: fixed;
+    bottom: calc($size4 - 10px);
+    right: calc($size4 - 10px);
+    text-align: center;
+    line-height: calc($size4 - 10px);
+    font-size: $size3;
+        :hover{
+        color: $color3;
+        }
+}
+
+.cierre{
+    text-align: center;
+}
