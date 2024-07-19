@@ -167,22 +167,71 @@
   border: #9CAD37;
 }
 
+.deficiencias a {
+  font-family: "Outfit", sans-serif;
+}
+
+.sec4 .card {
+  border-color: #9CAD37;
+}
+
+.sec4 .card-header {
+  background-color: #9CAD37;
+  text-align: center;
+  color: #FFFFFF;
+}
+.sec4 .card-header .btn {
+  background-color: #9CAD37;
+  color: #FFFFFF;
+  border-color: #FFD325;
+  transition: 0.7s;
+  border-radius: 50px;
+}
+
+.sec4 .btn:hover {
+  background-color: #FFD325;
+  color: #000000;
+  border-color: #9CAD37;
+  transform: scale(0.9);
+  border-radius: 20px;
+}
+
+.sec4 .card-body {
+  background-color: #9CAD37;
+  text-align: center;
+  color: #FFFFFF;
+}
+
 .causas p {
   font-family: "Exo 2", sans-serif;
   color: #FFFFFF;
-  text-align: left;
+  text-align: center;
+}
+
+.causas h4 {
+  font-family: "Outfit", sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+}
+
+.causas h5 {
+  font-family: "Exo 2", sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
 }
 
 .btn-causas {
-  background-color: #FFFFFF !important;
-  color: #B4008D !important;
-  border: 1px solid #B4008D !important;
+  background-color: #9CAD37 !important;
+  color: #FFFFFF !important;
+  border: 1px solid #FFD325 !important;
 }
 
 .btn-primary:hover {
-  background-color: #B4008D !important;
-  border: 1px solid #9CAD37 !important;
-  color: #FFFFFF !important;
+  background-color: #FFD325 !important;
+  border: 1px solid #FFD325 !important;
+  color: #000000 !important;
 }
 
 .indicadores {

@@ -232,25 +232,89 @@ $size4: 50px;
     border: $color1;
 }
 
+.deficiencias{
+    a{
+        font-family: $font1;
+    }
+}
+
+.sec4{
+    .card{
+        border-color: $color1;
+    }
+}
+
+.sec4{
+    .card-header{
+        background-color: $color1;
+        text-align: center;
+        color: $color2;
+        .btn{
+            background-color: $color1;
+            color: $color2;
+            border-color: $color3;
+            transition: 0.7s;
+            border-radius: $size4;
+        }
+    }
+}
+
+.sec4{
+        .btn:hover{
+            background-color: $color3;
+            color: $color6;
+            border-color: $color1;
+            transform: scale(0.9);
+            border-radius: $size3;
+        }
+    }
+
+
+.sec4{
+        .card-body{
+            background-color: $color1;
+            text-align: center;
+            color: $color2;
+        }
+}
+
 .causas{
 p{
     font-family: $font2;
     color: $color2;
-    text-align: left;
+    text-align: center;
 }
 }
 
+.causas{
+    h4{
+        font-family: $font1;
+        color: $color2;
+        text-align: center;
+        padding: $size3;
+    }
+    }
+
+.causas{
+        h5{
+            font-family: $font2;
+            color: $color2;
+            text-align: center;
+            padding: $size3;
+        }
+        }
+
 .btn-causas{
-background-color: $color2 !important;
-color: $color4 !important;
-border: 1px solid $color4 !important;
+background-color: $color1 !important;
+color: $color2 !important;
+border: 1px solid $color3 !important;
 }
 
 
 .btn-primary:hover {
-    background-color: $color4 !important; 
-    border: 1px solid $color1 !important;
-    color: $color2 !important;
+    background-color: $color3 !important; 
+    border: 1px solid $color3 !important;
+    color: $color6 !important;
 }
 
 .indicadores{
